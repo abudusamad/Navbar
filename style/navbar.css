@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-content {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+  display: flex;
+  word-wrap: wrap;
+  align-items: center;
+}
+
+.main-logo {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(57, 20, 20);
+  line-height: 60px;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.main-logo:hover {
+  background-color: rgb(143, 54, 54);
+}
+
+.main-logo li {
+  color: #fff;
+  font-size: 34px;
+}
+
+.navbar-content {
+  width: 80%;
+  height: 60px;
+  line-height: 60px;
+}
+
+.navbar-content ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.navbar-content ul li {
+  padding: 0 5px;
+}
+
+.navbar-content ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #111;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-media li {
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  background-color: rgb(95, 95, 225);
+  border-radius: 50%;
+  margin: 0 3px;
+  padding: 0 4px;
+}
+
+.social-media li:nth-child(1) {
+  background-color: #3b5998;
+  color: #fff;
+}
+
+.social-media li:nth-child(2) {
+  background-color: #55acee;
+  color: #fff;
+}
+
+.social-media li:nth-child(3) {
+  background-color: #0077b5;
+  color: #fff;
+}
+
+.social-media li:nth-child(4) {
+  background-color: #cd201f;
+  color: #fff;
+}
+
+.main-sidebar {
+  width: 60px;
+  height: calc(100vh - 50px);
+  margin-top: 60px;
+  background-color: #55acee;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+}
+
+.main-sidebar ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 15px;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.main-sidebar ul li {
+  line-height: 60px;
+  list-style: none;
+  word-wrap: break-word;
+}
+
+.main-sidebar ul li a, .main-sidebar ul li span {
+  display: block;
+  height: 60px;
+  padding: 0 10px;
+  text-decoration: none;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #fff;
+  opacity: 0;
+  transition: all 0.4s ease-in-out;
+  font-size: 14px;
+}
+
+.main-sidebar ul li a:hover {
+  color: #222;
+}/*# sourceMappingURL=navbar.css.map */
